@@ -153,8 +153,7 @@ const getLand = async()=>{
                 for(j = 0; j<myStadData.length; j++){  // length data from stad.json
                     // if we find a similar id 
                     if(changeMyObjects[i].id == myStadData[j].id ){ // yes
-                        console.log(changeMyObjects[i].id)
-                        console.log(myStadData[j].id)
+            
                         // add and append the info
                         const citiesUl = document.createElement("ul");
                         const citiesIl = document.createElement("li");
